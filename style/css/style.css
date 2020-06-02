@@ -1,0 +1,192 @@
+.my-column{
+    text-align: center;
+}
+.logo{
+    height: 50px;
+}
+
+.main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero__container{
+    /* margin-top: 100px; */
+    background-color: white;
+}
+
+.hero__title{
+    text-align: center;
+}
+
+.hero__img{
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.hero__paragraph{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.hero__video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__youtube{
+    width: 100%;
+}
+
+.hero__saske{
+    position: absolute;
+    top: 450px;
+    left: 0;
+    z-index: 10000;
+    height: 815px;
+    width: 250px;
+}
+
+.hero__naruto{
+    position: absolute;
+    top: 450px;
+    right: 0;
+    height: 815px;
+    width: 250px;
+}
+.slider{
+    margin-top: -3px;
+}
+
+.slider__container{
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.slider-pic{
+    height: 500px;
+}
+.slider-pic{
+    height: 500px;
+}
+
+.slider-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.main{
+    background-image: url('../../img/background.jpg');
+    background-size: cover;
+}
+
+.about{
+    background-color: #fff;
+    height: 2000px;
+}
+
+.about__pic{
+    width: 100%;
+}
+
+.about__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 620px;
+}
+
+.about__main{
+    width: 95%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.paragraph__pic{
+    width: 400px;
+    height: 250px;
+}
+
+.pic_right{
+    display: flex;
+    justify-content: flex-end;
+}
+.pic_left{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.photo{
+    width: 700px;
+    height: 600px;
+    background: grey;
+    margin: auto;
+}
+
+.kira__container{
+    height: 1200px;
+    background: white;
+    padding-top: 50px;
+}
+
+.name{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.kira__about{
+    width: 90%;
+    margin-top: 30px;
+    margin: auto;
+}
+
+@media (max-width: 992px){
+    .hero__img{
+        display: none;
+    }
+    .hero__naruto{
+        display: none;
+    }
+    .hero__saske{
+        display: none;
+    }
+    .hero__youtube{
+        width: 300px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 576px){
+    .container{
+        max-width: 95% !important;
+    }
+    .slider-pic{
+        width: 100%;
+        height: auto;
+    }
+    .slider__img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider__container{
+        height: 620px;
+        padding-top: 30px;
+    }
+    .photo{
+        width: 80%;
+        height: 250px;
+    }
+}
