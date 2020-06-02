@@ -92,7 +92,7 @@
 
 .about{
     background-color: #fff;
-    height: 2000px;
+    height: 2400px;
 }
 
 .about__pic{
@@ -116,29 +116,49 @@
 
 .paragraph__pic{
     width: 400px;
-    height: 250px;
+    height: 230px;
 }
 
 .pic_right{
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    /* justify-content: flex-end; */
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    height: 265px;
 }
 .pic_left{
     display: flex;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
+
+    /* justify-content: flex-end; */
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    height: 265px;
 }
 
 .photo{
-    width: 700px;
+    width: 300px;
     height: 600px;
     background: grey;
     margin: auto;
+    display: block;
 }
 
 .kira__container{
     height: 1200px;
     background: white;
     padding-top: 50px;
+}
+
+.Kira__text{
+    width: 60%;
+    margin: auto;
+    /* text-align: center; */
 }
 
 .name{
@@ -188,5 +208,16 @@
     .photo{
         width: 80%;
         height: 250px;
+    }
+    .paragraph__pic{
+        width: 310px;
+        margin-top: 25px;
+    }
+    b{
+        margin-bottom: 45px;
+    }
+
+    .about{
+        height: 5200px;
     }
 }
