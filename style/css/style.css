@@ -44,19 +44,21 @@
 
 .hero__saske{
     position: absolute;
-    top: 450px;
+    padding-bottom: 350px;
+    top: auto;
     left: 0;
     z-index: 10000;
-    height: 815px;
-    width: 250px;
+    height: 1500px;
+    width: 430px;
 }
 
 .hero__naruto{
     position: absolute;
-    top: 450px;
+    padding-bottom: 350px;
+    top: auto;
     right: 0;
-    height: 815px;
-    width: 250px;
+    height: 1500px;
+    width: 430px;
 }
 .slider{
     margin-top: -3px;
@@ -142,7 +144,7 @@
 }
 
 .photo{
-    width: 300px;
+    width: 1000px;
     height: 600px;
     background: grey;
     margin: auto;
@@ -220,4 +222,40 @@
     .about{
         height: 5200px;
     }
+}
+html .dark * {
+    background-color: #1d1c1c !important;
+    color: #fff!important;
+    }
+
+    img.animate1 {
+
+        filter: alpha (Opacity=25);
+        
+        opacity: 0.25;
+        
+        }
+        
+        img.animate1:hover {
+        
+        filter: alpha (Opacity=100);
+        
+        opacity: 1;
+        
+        }
+.up{
+    width: 65px;
+    height: 35px;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: white;
+}
+
+.link-up{
+   color: #192135;
 }
